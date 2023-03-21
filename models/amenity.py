@@ -14,6 +14,5 @@ class Amenity(BaseModel, Base):
     if storage_type == 'db':
         name = Column(String(128), nullable=False)
 
-
-else:
-    name = ""
+    else:
+        name = ""
